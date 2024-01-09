@@ -48,9 +48,7 @@ const gastos = [
     { id: "supermercado", gasto: (prompt("ingrese gastos super")) },
     { id: "comida para gatos", gasto: (prompt("ingrese gastos comida para gatos")) },
     { id: "nafta", gasto:(prompt ("ingrese gastos nafta"))},]
- gastos.push(prompt("ingrese una nueva categoría de gastos a la lista"))
-
-
+ 
 
 for (dinero of gastos) {
     console.log (dinero.id) 
